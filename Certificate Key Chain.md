@@ -131,7 +131,7 @@ keytool -exportcert -alias intermediate -storepass password -keystore c:/caKeySt
 
 **9)** **To extract certificates**
 
-keytool -exportcert -alias root -keystore ``C:/trust.jks -file c:/rootCA.cer`` -storepass password
+keytool -exportcert -alias root -keystore C:/trust.jks -file c:/rootCA.cer -storepass password
 
 keytool -exportcert -alias intermediate -keystore C:/trust.jks -file c:/intermediateCA.cer -storepass password
 
