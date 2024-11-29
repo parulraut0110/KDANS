@@ -14,3 +14,6 @@ A certificate chain created with self-signed top-level RootCA,  an intermediate 
 
 
 **By following these steps, one can successfully create a certificate chain with a self-signed Root CA, configure Java and system trust stores, and set up a local domain alias. This setup allows Java applications and web browsers to recognize and trust the self-signed certificates, enabling secure communications during development.**
+
+
+[Medium ](https://medium.com/@parulraut0110/self-signed-digital-certificate-chain-using-java-keytool-756caa574c62)
